@@ -1,0 +1,8 @@
+{
+  "name": "Addilab: Towards the End of Work",
+  "description": "Explore, simulate, and understand how artificial intelligence is transforming, replacing, or augmenting professions of the future. Features curated cases, a Gemini-powered career decoder, and a task automation sandbox.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
