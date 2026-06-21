@@ -314,12 +314,32 @@ Your task:
       }
     });
 
-    const textOutput = response.text;
-    if (!textOutput) {
-      throw new Error("AI returned no content.");
-    }
+    let textOutput = response.text || "";
+    textOutput = textOutput.trim();
 
-    const cleanJson = JSON.parse(textOutput.trim());
+    // Strip markdown wrappers if present
+    if (textOutput.startsWith("```json")) {
+      textOutput = textOutput.substring(7);
+    } else if (textOutput.startsWith("```")) {
+      textOutput = textOutput.substring(3);
+    }
+    if (textOutput.endsWith("```")) {
+      textOutput = textOutput.substring(0, textOutput.length - 3);
+    }
+    textOutput = textOutput.trim();
+
+    let cleanJson;
+    try {
+      cleanJson = JSON.parse(textOutput);
+    } catch (parseErr) {
+      console.warn("Fallback regex parsing active for evaluator json.");
+      const jsonMatch = textOutput.match(/\{[\s\S]*\}/);
+      if (jsonMatch) {
+        cleanJson = JSON.parse(jsonMatch[0]);
+      } else {
+        throw new Error("Could not parse AI evaluation response. Raw: " + textOutput);
+      }
+    }
     return res.json(cleanJson);
 
   } catch (error: any) {
