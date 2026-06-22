@@ -6,3 +6,576 @@
   --font-serif: "Playfair Display", ui-serif, Georgia, serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 }
+
+/* ==========================================
+   PREMIUM COHESIVE SYSTEMIC BLUE & WHITE GRADIENT PALETTE
+   ========================================== */
+
+/* Main layout background & basic typography presets */
+body,
+.bg-\[\#070913\] {
+  background-image: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 40%, #ffffff 100%) !important; /* Premium fresh sky blue to pure white gradient */
+  background-attachment: fixed !important;
+  background-color: #f0f9ff !important;
+  color: #1e3a8a !important; /* Ultimate high-contrast royal sapphire blue */
+}
+
+/* Ensure root text is readable, friendly, and high-contrast */
+div, p, span, h1, h2, h3, h4, h5, h6, li, label, input, textarea {
+  color: inherit;
+}
+
+/* Global scrollbars styled with high-end clean blue hues */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f9ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #bae6fd;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #38bdf8;
+}
+
+/* Sidebar structure utilizing premium soft cool blue lines & snow white card boards */
+aside,
+.bg-\[\#070913\]\/90 {
+  background-image: linear-gradient(to bottom, #ffffff, #f0f9ff) !important;
+  background-color: #ffffff !important;
+  border-right: 1px solid #bae6fd !important;
+  color: #0369a1 !important;
+}
+
+/* Mobile responsive navigation & header with pristine sky-white backdrop blur */
+header,
+.bg-\[\#070913\]\/40 {
+  background-image: linear-gradient(to right, #ffffff, #f0f9ff) !important;
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(16px) !important;
+  border-bottom: 1px solid #bae6fd !important;
+}
+
+.md\:hidden.bg-\[\#070913\]\/90 {
+  background-image: linear-gradient(to bottom, #ffffff, #e0f2fe) !important;
+  border-bottom: 1px solid #bae6fd !important;
+}
+
+/* Mobile drawer overlay menu */
+.bg-\[\#070913\]\/95 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.98), rgba(224, 242, 254, 0.98)) !important;
+}
+
+/* Navigation items & light ice blue highlights */
+.border-transparent.text-slate-400:hover,
+.border-transparent.text-slate-405:hover {
+  background-color: #e0f2fe !important;
+  color: #0369a1 !important;
+}
+
+/* Card containers styled in soft glowing white and elegant pale sky-blue, completely free of any dark shades */
+.bg-\[\#0e1424\]\/50,
+.bg-\[\#0e1424\]\/80,
+.bg-\[\#0e1424\]\/60,
+.bg-\[\#0e1424\]\/40,
+.bg-\[\#0e1431\]\/80,
+.bg-\[\#0b1121\]\/95,
+.bg-\[\#0b1121\]\/90,
+.bg-\[\#0b1121\],
+.bg-\[\#0b1021\]\/60,
+.bg-\[\#0b1021\],
+.bg-\[\#0d1324\],
+.bg-\[\#0e162a\],
+.bg-\[\#090e1b\]\/80,
+.bg-\[\#090d19\],
+.bg-\[\#0f1d32\]\/90,
+.bg-\[\#0f152d\]\/40,
+.bg-\[\#0f1526\]\/80,
+.bg-\[\#0f1526\],
+.bg-\[\#111625\]\/80,
+.bg-\[\#0a0c16\],
+.bg-\[\#0b162f\]\/90,
+.bg-\[\#070912\]\/90,
+.bg-\[\#070913\]\/90,
+.bg-slate-900\/25,
+.bg-slate-900\/50,
+.bg-slate-950\/30,
+.bg-slate-950\/50,
+.bg-slate-950\/80,
+#practice-labs-block,
+#theory-academy-block {
+  background-image: linear-gradient(135deg, #ffffff 0%, #e0f2fe 100%) !important; /* Elegant white to baby sky-blue */
+  background-color: #ffffff !important;
+  color: #1e3a8a !important;
+  border: 1px solid #bae6fd !important; /* Soft ice border */
+  box-shadow: 0 10px 25px -5px rgba(2, 132, 199, 0.05), 0 8px 10px -6px rgba(2, 132, 199, 0.03) !important;
+}
+
+/* Inner block containers to use transparent soft blending styles, completely eliminating dark or grey frames */
+.bg-\[\#05070e\]\/50,
+.bg-\[\#05070e\]\/80,
+.bg-\[\#05070e\]\/30,
+.bg-\[\#05070e\]\/60,
+.bg-\[\#05070e\],
+.bg-\[\#050814\]\/40,
+.bg-\[\#050814\]\/30,
+.bg-\[\#050814\],
+.bg-\[\#0c1020\]\/50,
+.bg-\[\#0c101d\],
+.bg-\[\#0c101d\]\/85,
+.bg-\[\#0c101d\]\/90,
+.bg-\[\#060913\],
+.bg-\[\#090e1b\],
+.bg-\[\#09101f\],
+.bg-\[\#060912\]\/95,
+.bg-\[\#1e293b\]\/40,
+.bg-slate-950\/50,
+.bg-slate-950\/20,
+.bg-slate-900\/20,
+.bg-slate-800\/25,
+.bg-slate-800\/40,
+.bg-slate-800\/50,
+.bg-indigo-950/40,
+.bg-white\/\[0\.01\],
+.bg-white\/\[0\.02\],
+.bg-white\/\[0\.03\],
+.bg-white\/5 {
+  background-image: none !important;
+  background-color: rgba(255, 255, 255, 0.65) !important; /* Super clean transparent white blending into ice gradients */
+  color: #0369a1 !important; /* High contrast ocean blue text */
+  border: 1px solid rgba(56, 189, 248, 0.25) !important; /* Super faint merging blue lines */
+}
+
+/* Specialized practice sandbox input and command fields */
+textarea,
+input[type="text"] {
+  background-image: linear-gradient(to right, #ffffff, #f0f9ff) !important;
+  background-color: #ffffff !important;
+  color: #1e3a8a !important;
+  border-color: #38bdf8 !important;
+}
+
+/* Code terminal containers designed with beautiful bright ice-blossom and ivory white themes, cleanly removing all dark environments */
+.bg-\[\#030712\],
+.bg-\[\#02040b\],
+.bg-slate-950,
+code {
+  background-image: linear-gradient(135deg, #f0f9ff 0%, #ffffff 100%) !important; /* Rich light blue and cream white */
+  background-color: #ffffff !important;
+  color: #0369a1 !important; /* Deep blue text */
+  border: 1px solid #bae6fd !important;
+}
+
+/* Keep code snippets inside regular copy readable and highlighted with soft blue tones */
+p code {
+  color: #0369a1 !important;
+  background-color: #f0f9ff !important;
+  border: 1px solid #bae6fd !important;
+}
+
+/* Enhanced high-contrast headings */
+.text-white,
+h1.text-white,
+h2.text-white,
+h3.text-white,
+h4.text-white,
+h5.text-white,
+h6.text-white,
+span.text-white,
+strong.text-white,
+.font-bold.text-white {
+  color: #1e3a8a !important; /* Elegant sapphire blue for maximum clarity on sky gradients */
+}
+
+/* Content paragraphs & descriptions */
+.text-\`#f1f5f9\`,
+.text-\[\#f1f5f9\],
+.text-\[\#94a3b8\],
+.text-slate-100,
+.text-slate-200,
+.text-slate-300,
+.text-slate-305,
+.text-slate-350,
+.text-slate-400,
+.text-slate-405,
+.text-slate-450 {
+  color: #1e3a8a !important; /* Extremely high readability royal sapphire blue instead of anthracite slate */
+}
+
+/* Transparent friendly supportive labels */
+.text-slate-500,
+.text-slate-600 {
+  color: #0284c7 !important; /* Cool clean secondary sky blue */
+}
+
+/* Active highlights or primary tag labels */
+.text-indigo-400, .text-indigo-300, .text-indigo-200 {
+  color: #0284c7 !important; /* Vibrant sky blue */
+}
+
+.text-pink-400, .text-pink-300, .text-pink-200 {
+  color: #0369a1 !important; /* Clean sky dark accent */
+}
+
+/* Active links exceptions */
+.text-indigo-350,
+.text-indigo-305 {
+  color: #0284c7 !important;
+}
+
+/* General fine structures borders overrides */
+.border-\[\#1e293b\]\/30,
+.border-\[\#1e293b\]\/40,
+.border-\[\#1e293b\]\/45,
+.border-\[\#1e293b\]\/50,
+.border-\[\#1e293b\]\/60,
+.border-\[\#1e293b\],
+.border-white\/10,
+.border-white\/15,
+.border-white\/\[0\.02\],
+.border-white\/\[0\.04\],
+.border-white\/\[0\.05\],
+.border-white\/5 {
+  border-color: #bae6fd !important;
+}
+
+/* High action trigger buttons keep solid ocean blue gradients with crisp white text */
+button[class*="bg-indigo"],
+button[class*="bg-rose"],
+button[class*="bg-pink"],
+button.bg-indigo-600,
+button.bg-pink-500,
+button.bg-indigo-500,
+.bg-indigo-600,
+.bg-pink-500,
+.bg-indigo-500 {
+  background-image: linear-gradient(135deg, #0284c7 0%, #0369a1 100%) !important; /* Crisp oceanic gradient of blue catalog */
+  color: #ffffff !important;
+  border-color: #0369a1 !important;
+  box-shadow: 0 4px 12px rgba(3, 105, 161, 0.15) !important;
+}
+
+button[class*="bg-indigo"] *,
+button[class*="bg-rose"] *,
+button[class*="bg-pink"] *,
+.bg-indigo-600 *,
+.bg-pink-500 *,
+.bg-indigo-500 * {
+  color: #ffffff !important;
+}
+
+/* Checkmarks and pill active highlights */
+.bg-indigo-600\/10, .bg-indigo-500\/10 {
+  background-color: #e0f2fe !important;
+}
+
+/* Specific section guides styled beautifully with soft celestial ocean presets */
+.border-indigo-500\/30,
+.border-indigo-500/10 {
+  border-color: #38bdf8 !important;
+}
+
+.bg-indigo-650\/15,
+.bg-indigo-600\/15,
+.bg-indigo-600\/20,
+.bg-indigo-950\/20 {
+  background-image: linear-gradient(to right, #f0f9ff, #e0f2fe) !important;
+  background-color: #f0f9ff !important;
+}
+
+/* Specific welcome portal gradient showcase */
+.from-\[\#1c1236\]\/80 {
+  background-image: linear-gradient(135deg, #ffffff 0%, #e0f2fe 50%, #bae6fd 100%) !important;
+  border-color: #38bdf8 !important;
+}
+
+/* Navigation items clean clear styling */
+aside nav button {
+  background-image: none !important;
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+
+aside nav button.bg-indigo-600\/15,
+aside nav button.bg-pink-500\/10 {
+  background-color: #e0f2fe !important; /* Soft sky blue background */
+  border-color: #bae6fd !important;
+  color: #0369a1 !important;
+}
+
+aside nav button .bg-slate-800\/40,
+aside nav button .bg-indigo-500\/20,
+aside nav button .bg-pink-500\/20 {
+  background-image: none !important;
+  background-color: #e0f2fe !important;
+  border: none !important;
+  color: #0369a1 !important;
+}
+
+aside nav button:hover {
+  background-image: none !important;
+  background-color: rgba(186, 230, 253, 0.4) !important; /* Elegant light blue hover */
+  border-color: #bae6fd !important;
+}
+
+aside nav button:hover * {
+  color: #0369a1 !important;
+}
+
+/* Mobile Drawer clean buttons */
+.fixed.inset-0.bg-\[\#070913\]\/95 button {
+  background-image: none !important;
+  background-color: transparent !important;
+  border-color: #bae6fd !important;
+}
+
+.fixed.inset-0.bg-\[\#070913\]\/95 button.bg-indigo-600\/20 {
+  background-color: #e0f2fe !important;
+  border-color: #38bdf8 !important;
+  color: #0369a1 !important;
+}
+
+/* ==========================================================================
+   ADDI LAB - ANTI-GRAY GLOBAL OVERRIDE (FORCE LIGHT SKY / CRYSTAL)
+   ========================================================================== */
+
+/* 1. Target all possible class variations for modules and constituents */
+.insight, .pillar, .foreign-insight, .observe, .simulate,
+.job-mapping, .humanity-simulation, .transition-quiz, .constituants, .prompt-academy,
+[class*="insight"], [class*="pillar"], [class*="observe"], [class*="simulate"],
+[class*="mapping"], [class*="simulation"], [class*="quiz"], [class*="academy"] {
+
+  /* Force-remove any gray/dark backgrounds and replace them with ultra clean white-to-blue gradients */
+  background-image: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%) !important;
+  background-color: #ffffff !important;
+  color: #1e3a8a !important; /* Elegant sapphire blue text */
+
+  /* Get rid of gray borders and replace with soft baby-blue lines */
+  border: 1px solid #bae6fd !important;
+  border-color: #bae6fd !important;
+  box-shadow: 0 10px 25px -5px rgba(2, 132, 199, 0.04) !important;
+}
+
+/* 2. Fix inner cards, boxes, or wrapper divs to prevent nested grayness */
+[class*="insight"] div, 
+[class*="mapping"] div, 
+[class*="quiz"] div, 
+[class*="academy"] div,
+[class*="simulation"] div,
+[class*="pillar"] div {
+  /* Forces internal containers to be transparent or clear pure-white to blend beautifully */
+  background-color: transparent !important;
+  border-color: rgba(56, 189, 248, 0.15) !important;
+}
+
+/* 3. Strip gray from control items (buttons, pill tags, badges) inside these sections */
+.insight button, .job-mapping button, .transition-quiz button,
+[class*="pill"], .badge, span[class*="tag"], [class*="badge"] {
+  background-color: #e0f2fe !important; /* Luminous soft sky blue highlight */
+  background-image: none !important;
+  border: 1px solid #38bdf8 !important;
+  border-color: #38bdf8 !important; /* Vibrant clear sky blue border */
+  color: #0369a1 !important;
+}
+
+/* 4. Map remaining unmapped slate/dark elements globally to light templates */
+.bg-\[\#091122\]\/60,
+.bg-\[\#091122\]\/40,
+.bg-\[\#091122\],
+.bg-\[\#050814\]\/40,
+.bg-\[\#050814\]\/30,
+.bg-\[\#050814\],
+.bg-\[\#111827\]\/40,
+.bg-\[\#111827\],
+.bg-\[\#0c101d\],
+.bg-slate-900\/40,
+.bg-slate-900\/60,
+.bg-slate-950\/20,
+.bg-slate-950\/30,
+.bg-slate-950\/80 {
+  background-image: linear-gradient(135deg, #ffffff 0%, #f0f9ff 100%) !important;
+  background-color: #ffffff !important;
+  color: #1e3a8a !important;
+  border: 1px solid #bae6fd !important;
+  border-color: #bae6fd !important;
+}
+
+/* ==========================================================================
+   SPECIFIC HIGHLIGHTED COMPONENT STYLES (FOCUS MODE TARGETS)
+   ========================================================================== */
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) {
+  background-color: #c7ecec !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) {
+  background-color: #ccfff1 !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(3) {
+  border-color: #8ecef3 !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(2) {
+  border-color: #b5e2fa !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > button:nth-of-type(6) {
+  border-color: #5dbce4 !important;
+}
+
+/* Individual Selector Overrides for the 12 items */
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(6) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(8) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(9) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(10) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(11) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2),
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(12) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > button:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h4:nth-of-type(1) {
+  color: #faa0a0 !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h2:nth-of-type(1) {
+  color: #e18ec1 !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div#practice-labs-block:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) {
+  background-color: #b6c5f2 !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div#practice-labs-block:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(3) {
+  background-color: #d0d3e8 !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(1) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(2) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > div:nth-of-type(3) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(3) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(1) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(2) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(3) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(7) > div:nth-of-type(1) > div:nth-of-type(4) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1) {
+  font-size: 24px !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > header:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > img:nth-of-type(1) {
+  width: 35.4482px !important;
+  height: 37.4482px !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(6) > div:nth-of-type(2) > input:nth-of-type(1) {
+  background-color: #79a7e0 !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(2) > input:nth-of-type(1) {
+  background-color: #8fa8cc !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(4) > div:nth-of-type(2) > input:nth-of-type(1) {
+  background-color: #6588c5 !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(2) > input:nth-of-type(1) {
+  background-color: #7797d1 !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(3) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > input:nth-of-type(1) {
+  background-color: #7396d0 !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) {
+  background-color: #f0d2ee !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > input:nth-of-type(1) {
+  background-color: #5c7bb8 !important;
+}
+
+div#root:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(3) > main:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) {
+  background-color: #f0d2ee !important;
+}
