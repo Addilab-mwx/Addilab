@@ -3524,9 +3524,6 @@ export default function App() {
           <div className="flex gap-6 md:gap-8 font-mono">
             <span className="hover:text-white transition-colors cursor-pointer">Methodology</span>
             <span className="hover:text-white transition-colors cursor-pointer">OECD Sources</span>
-            <span className="text-indigo-400 hover:text-indigo-300 transition-colors cursor-pointer flex items-center gap-1.5 font-bold">
-              BUILT WITH AI STUDIO <ExternalLink className="w-2.5 h-2.5 text-indigo-405" />
-            </span>
           </div>
         </footer>
 
